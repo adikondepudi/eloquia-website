@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from './NavBarElements';
 import { animateScroll as scroll } from 'react-scroll';
+import Logo from '../../Images/eloquia_logo.svg'
 
 const Navbar = ({ toggle }) => {
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
@@ -29,7 +30,7 @@ const Navbar = ({ toggle }) => {
         <Nav style={{ top: visible ? '0' : '-80px' }}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              <img src="src/Images/eloquia_logo.svg" alt="Logo" style={{ width: '150px' }} />
+              <img src={Logo} alt="Logo" style={{ width: '150px' }} />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
