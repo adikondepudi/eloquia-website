@@ -11,18 +11,18 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help your fess and increase your overall revenue.</ServicesP>
+          <ServicesH2>Free Tier</ServicesH2>
+          <ServicesP>Basic speech analysis with instant feedback on one recording..</ServicesP>
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={Icon2}/>
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>you can acess our plataform online anywhere in the world.</ServicesP>
+          <ServicesH2>Pro Tier</ServicesH2>
+          <ServicesP>Detailed tracking and analysis across multiple recordings.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
+          <ServicesH2>Enterprise Tier</ServicesH2>
+          <ServicesP>Comprehensive tools for therapists managing multiple clients.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
