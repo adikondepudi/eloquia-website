@@ -28,7 +28,9 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav style={{ top: visible ? '0' : '-80px' }}>
           <NavbarContainer>
-            <NavLogo to='/' onClick={toggleHome}>dolla</NavLogo>
+            <NavLogo to='/' onClick={toggleHome}>
+              <img src="src/images/eloquia_logo.svg" alt="Logo" style={{ width: '150px' }} />
+            </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
