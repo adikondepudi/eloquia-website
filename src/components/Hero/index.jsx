@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeroContainer, HeroContent, HeroH1, HeroP, HeroImgWrapper, Image } from './HeroElements';
-import PeopleTalkingImage from '../../images/people_talking.png';
+import PeopleTalkingImage from '../../Images/people_talking.png';
 import { Button } from '../ButtonElements';
 
 const Hero = () => {

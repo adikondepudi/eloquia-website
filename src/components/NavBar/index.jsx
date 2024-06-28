@@ -29,7 +29,7 @@ const Navbar = ({ toggle }) => {
         <Nav style={{ top: visible ? '0' : '-80px' }}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              <img src="src/images/eloquia_logo.svg" alt="Logo" style={{ width: '150px' }} />
+              <img src="src/Images/eloquia_logo.svg" alt="Logo" style={{ width: '150px' }} />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
