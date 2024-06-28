@@ -1,6 +1,5 @@
 import React from 'react';
 import { HeroContainer, HeroContent, HeroH1, HeroP, HeroImgWrapper, Image } from './HeroElements';
-import PeopleTalkingImage from '../../Images/people_talking.png';
 import { Button } from '../ButtonElements';
 
 const Hero = () => {
@@ -14,7 +13,8 @@ const Hero = () => {
         </Button>
       </HeroContent>
       <HeroImgWrapper>
-        <Image src={PeopleTalkingImage} alt="People Talking" />
+        {/* Update the src attribute to point directly to the image in the public directory */}
+        <Image src="/Images/people_talking.png" alt="People Talking" />
       </HeroImgWrapper>
     </HeroContainer>
   );
