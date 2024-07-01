@@ -81,6 +81,6 @@ export const Image = styled.img`
 
   @media screen and (max-width: 768px) {
     max-height: 40vh;
-    margin-top: 40px;  // Adjust this value to shift the image down as needed
+    margin-top: 50px;  // Adjust this value to shift the image down as needed
   }
 `;
