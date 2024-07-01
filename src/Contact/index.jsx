@@ -65,7 +65,7 @@ const Contact = () => {
             <FormButton type="submit">Send Message</FormButton>
           </Form>
         ) : (
-          <ThankYouMessage>Thank you for your message. We'll be in touch soon!</ThankYouMessage>
+          <ThankYouMessage>Thank you for your message. We'll be in touch soon.</ThankYouMessage>
         )}
       </FormWrap>
     </Container>

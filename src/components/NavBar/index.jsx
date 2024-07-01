@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to='/Contact'>Contact us!</NavBtnLink>
+              <NavBtnLink to='/Contact'>Contact Us</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

@@ -15,7 +15,7 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink to='signup' onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign up</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/contact'>Contact us!</SidebarRoute>
+          <SidebarRoute to='/contact'>Contact Us</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
