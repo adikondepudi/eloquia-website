@@ -1,8 +1,8 @@
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
-    lightText: true,
-    lighttextDesc: true,
+    lightText: false,
+    lighttextDesc: false,
     topLine: 'Advanced AI Integration',
     headline: 'Elevate Speech Fluency with Eloquia',
     description: 'Our platform analyzes your speech patterns to provide personalized, actionable feedback, helping you communicate more clearly and confidently.',
@@ -10,9 +10,9 @@ export const homeObjOne = {
     imgStart: false,
     img: '/Images/one.svg',
     alt: 'car',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
   };
   
   export const homeObjTwo = {
